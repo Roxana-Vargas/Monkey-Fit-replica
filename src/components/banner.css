@@ -21,3 +21,17 @@
     color: white;
     width: 100%;
 }
+
+@media (min-width : 1200px) {
+    .info-banner {
+        font-size: 45px;
+        padding: 50px;
+    }
+    .title-banner{
+        font-size: 45px;
+    }
+
+    .btn-start{
+        width: 200px;
+    }
+}
