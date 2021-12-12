@@ -1,0 +1,23 @@
+.info-banner {
+    padding: 50px 1.5em 1.5em;
+}
+
+.title-banner {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.text-banner {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.title-banner, .text-banner {
+    margin-bottom: 20px;
+}
+
+.btn-start {
+    background: #3c52ff;
+    color: white;
+    width: 100%;
+}

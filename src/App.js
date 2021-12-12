@@ -1,4 +1,5 @@
 import "./app.css"
+import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
 
 function App() {
@@ -10,6 +11,15 @@ function App() {
           <a href="#iniciar-sesión" className="url-login my-4" >Iniciar sesión</a>
           <NavBar />
         </div>
+      </div>
+      <div className="row container-banner">
+        <div className="col-sm-12 col-lg-6">
+          <Banner />
+        </div>
+        <div className="col-sm-12 col-lg-6">
+          <img className="img-banner" src={'https://www.monkeyfitpass.com/_nuxt/img/hero-employees.dab5e1a.png'} alt='Employees MokeyFit'/>
+        </div>
+        
       </div>
     </div>
   );
