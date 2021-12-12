@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #525253;
+}
+
 .logo{
     width: 165px;
+}
+
+.url-login{
+    font-size: 18px;
+    font-weight: 800;
+    color: #3c52ff;
+    text-decoration: none;
+}
+
+.container-navbar{
+    box-shadow: 0 3px 20px 0 rgb(18 35 131 / 17%);
+}
+
+@media (min-width : 1100px) {
+    .container-navbar{
+        padding-inline:  150px !important;
+    }
 }

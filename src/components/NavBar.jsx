@@ -1,15 +1,17 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserPlus, faUsers, faBlog} from '@fortawesome/free-solid-svg-icons'
+import { faBuilding} from '@fortawesome/free-regular-svg-icons'
 import "./navBar.css"
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-danger">
-            <button className="btn btn-danger navbar-toggler border-3 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                <span className="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-sm navbar-light">
+            <button className="btn navbar-toggler border-3 px-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offCanvasNav" aria-controls="offCanvasNav">
+                <span className='navbar-toggle-icon'>☰</span>
             </button>
-            <div className="offcanvas  offcanvas-start-lg bg-danger" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div className="offcanvas-header d-flex d-lg-none">
-                    <h5 className="offcanvas-title text-white" id="offcanvasExampleLabel">Navbar</h5>
+            <div className="offcanvas  offcanvas-start-sm" tabindex="-1" id="offCanvasNav" aria-labelledby="offCanvasNavLabel">
+                <div className="offcanvas-header d-flex justify-content-end d-sm-none">
                     <button className="btn text-reset p-0" data-bs-dismiss="offcanvas" aria-label="close">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#FFFFFF" className="bi bi-x-circle" viewBox="0 0 16 16">
                             <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
@@ -17,12 +19,13 @@ const NavBar = () => {
                         </svg>
                     </button>
                 </div>
-                <div className="offcanvas-body p-lg-0">
+                <div className="offcanvas-body p-sm-0">
                     <ul className="navbar-nav">
-                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#g">Home</a></li>
-                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#g">About</a></li>
-                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#g">Blog</a></li>
-                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#g">Contact</a></li>
+                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#empresas"><FontAwesomeIcon icon={faBuilding} className='link-icon' />  Para empresas</a></li>
+                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#empleados"><FontAwesomeIcon icon={faUsers} className='link-icon' />  Para empleados</a></li>
+                        <li className="nav-item"><a className="nav-link active" aria-current="page" href="#blog"><FontAwesomeIcon icon={faBlog} className='link-icon' />  Blog</a></li>
+                        <li className="nav-item"><a className="nav-link login-offcanvas active" aria-current="page" href="#iniciar-sesión">Iniciar sesión</a></li>
+                        <li className="nav-item"><a className="nav-link register active" aria-current="page" href="#crear-cuenta"><FontAwesomeIcon icon={faUserPlus} className='link-icon' /> Crear cuenta</a></li>
                     </ul>
                 </div>
             </div>

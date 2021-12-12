@@ -1,28 +1,95 @@
-
-@media (min-width : 992px) {
-  .offcanvas {
-    visibility      : visible !important;
-    position        : relative;
-    background      : none;
-    border          : none;
-    justify-content : end;
-    color           : rgb(31, 25, 25);
-  }
-  .nav-item {
-    background: slateblue !important;
-  }
+.offcanvas-header{
+    background: #3c52ff;
+    height: 100px;
+    border-radius:  0 0 30px 30px;
 }
 
-@media (max-width : 992px) {
-  .offcanvas {
-    width : 250px !important;
-    
-  }
+.navbar-toggler{
+    border-color: white !important;
+}
+
+.navbar-toggler:focus{
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;  
+}
+
+.navbar-toggle-icon{
+    color: #3c52ff;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.nav-item{
+    letter-spacing: .5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link{
+    color: #3c52ff !important;
+}
+
+.link-icon{
+    margin-right: 7px;
+}
+
+@media (min-width : 576px) {
+
+    .offcanvas {
+        visibility      : visible !important;
+        position        : relative;
+    }
+
+    .link-icon, .url-login{
+        display: none;
+    }
+
+    .register{
+        white-space: nowrap;
+        background: #3c52ff;
+        color: white !important;
+        margin-top: 1%;
+        width: 160px;
+        border-radius: 4px;
+        text-align: center;
+    }
+}
+
+@media (max-width : 576px) {
+
+    .offcanvas {
+        width : 55% !important;
+    }
+
+    .login-offcanvas{
+        display: none;
+    }
   
-  .offcanvas-start-lg {
-    top          : 0;
-    left         : 0;
-    border-right : 1px solid rgba(0, 0, 0, .2);
-    transform    : translateX(-100%);
-  }
+    .offcanvas-start-sm {
+        top          : 0;
+        right         : 0;
+        border-right : 1px solid rgba(0, 0, 0, .2);
+    }
+
+    .nav-link{
+        color: black !important;
+    }
+}
+
+@media (min-width : 992px) {
+
+    .nav-item{
+        margin-inline: 10px;
+    }
+
+}
+
+@media (max-width : 435px) {
+
+    .offcanvas {
+        width : 80% !important;
+    }
 }
