@@ -11,7 +11,7 @@ import Step from "./components/Step";
 function App() {
   return (
     <div className="App">
-      <section className="container-navbar d-flex justify-content-between px-5">
+      <section className="container-navbar d-flex justify-content-between px-sm-2">
         <img className="logo" src={"https://www.monkeyfitpass.com/_nuxt/img/new-logo.f8a84a8.png"} alt="logo"></img>
         <div className="d-flex">
           <a href="#iniciar-sesión" className="url-login my-4" >Iniciar sesión</a>
