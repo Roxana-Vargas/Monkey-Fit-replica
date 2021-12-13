@@ -43,9 +43,9 @@ body{
     padding: 50px 0;
 }
 
-/* Styles to sections Conect */
+/* Styles to section Conect and section comments */
 
-.container-conect {
+.container-conect, .container-comments {
     background: #f4f7ff;
     padding: 50px 0;
 }

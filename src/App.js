@@ -1,5 +1,6 @@
 import "./app.css"
 import Banner from "./components/Banner";
+import Comments from "./components/Comments";
 import Conect from "./components/Conect";
 import Details from "./components/Details";
 import NavBar from "./components/NavBar";
@@ -31,6 +32,9 @@ function App() {
       </section>
       <section className="container-step">
         <Step />
+      </section>
+      <section className="container-comments">
+        <Comments />
       </section>
     </div>
   );

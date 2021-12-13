@@ -1,0 +1,45 @@
+.image-user {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 0.7em;
+}
+
+.title-comments {
+    font-weight: 700;
+}
+
+.title-comments span {
+    color: #3c52ff;
+}
+
+.card-comment {
+    margin: 12px auto;
+    padding: 18px 12px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgb(9 24 255 / 20%);
+    background: #fff;
+    border-top: 6px solid #3c52ff;
+}
+
+.description-comment {
+    font-size: 16px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.name-user {
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+@media (min-width : 768px) {
+    .title-comments {
+        font-size: 38px;
+    }
+}
