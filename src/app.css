@@ -35,11 +35,12 @@ body{
     height: auto;
 }
 
-/* Styles to section Details */
+/* Styles to section Details adn section Step */
 
-.container-details{
+.container-details, .container-step{
     background: #f4f4f4;
     padding-bottom: 20px;
+    padding: 50px 0;
 }
 
 /* Styles to sections Conect */

@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Conect from "./components/Conect";
 import Details from "./components/Details";
 import NavBar from "./components/NavBar";
+import Step from "./components/Step";
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </section>
       <section className="container-conect">
         <Conect />
+      </section>
+      <section className="container-step">
+        <Step />
       </section>
     </div>
   );

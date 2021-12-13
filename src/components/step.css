@@ -1,0 +1,73 @@
+.title-step{
+    font-weight: 700;
+    font-size: 34px;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.title-step span{
+    color: #3c52ff;
+}
+
+.card-step{
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    padding: 18px 12px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px 0 rgb(9 24 255 / 20%);
+    height: 90px;
+}
+
+.number-step {
+    width: 40px;
+    height: 40px;
+    background-color: #3c52ff;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.container-text-step {
+ width: 70%;
+}
+
+.text-step {
+        padding-left: 0.7em;
+    margin: 0;
+    text-align: left;
+    font-size: 1em;
+   
+}
+
+.logo-download {
+    width: 90%;
+}
+
+@media (min-width : 768px) {
+    .title-step{
+        font-size: 38px;
+        width: 100%;
+    }
+}
+
+@media (min-width : 1200px) {
+    .logo-download {
+        width: 70%;
+    }
+    
+    .info-step {
+        margin-top: 40px;
+    }
+
+    .girl-step {
+        width: 400px;
+    }
+}
+
