@@ -3,13 +3,13 @@
 }
 
 .title-banner {
-    font-weight: 700;
     font-size: 36px;
 }
 
 .text-banner {
     letter-spacing: 1px;
     font-size: 20px;
+    font-weight: 300;
 }
 
 .title-banner, .text-banner {
