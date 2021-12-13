@@ -7,7 +7,7 @@ body{
     color: #525253;
 }
 
-/* Styles to sections NavBar */
+/* Styles to section NavBar */
 
 .logo{
     width: 165px;
@@ -24,7 +24,7 @@ body{
     box-shadow: 0 3px 20px 0 rgb(18 35 131 / 17%);
 }
 
-/* Styles to sections Banner */
+/* Styles to section Banner */
 
 .container-banner{
     background: #eaeaf8 !important;
@@ -35,11 +35,18 @@ body{
     height: auto;
 }
 
-/* Styles to sections Details */
+/* Styles to section Details */
 
 .container-details{
     background: #f4f4f4;
     padding-bottom: 20px;
+}
+
+/* Styles to sections Conect */
+
+.container-conect {
+    background: #f4f7ff;
+    padding: 50px 0;
 }
 
 

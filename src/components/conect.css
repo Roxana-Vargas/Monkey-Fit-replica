@@ -1,0 +1,62 @@
+.carousel-caption {
+    position:static !important;
+}
+
+.title-conect{
+    font-size: 30px;
+    font-weight: 700;
+    width: 80%;
+    margin-inline: auto;
+    padding-bottom: 10px;
+}
+
+.title-conect span {
+    color: #3c52ff;
+}
+
+.image-carousel {
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px 0 rgb(9 24 255 / 20%);;
+}
+
+.item-carousel {
+    margin-inline: 15px; 
+}
+
+.subtitle-conect {
+    color: #3c52ff;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.info-conect {
+    font-size: 22px;
+    width: 300px;
+    text-align: center;
+}
+
+.lcUbOd {
+    box-shadow: 0 0 1px 3px black !important;
+    background-color: black !important;
+}
+
+@media (min-width : 1400px) {
+    .container-navbar{
+        padding-inline:  150px !important;
+    }
+
+    .image-carousel {
+        opacity: 60%;
+    }
+
+    .image-carousel:hover {
+        opacity: 100%;
+    }
+
+    .title-conect {
+        width: 97%;
+    }
+}

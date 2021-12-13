@@ -1,5 +1,6 @@
 import "./app.css"
 import Banner from "./components/Banner";
+import Conect from "./components/Conect";
 import Details from "./components/Details";
 import NavBar from "./components/NavBar";
 
@@ -23,6 +24,9 @@ function App() {
       </section>
       <section className="container-details">
         <Details />
+      </section>
+      <section className="container-conect">
+        <Conect />
       </section>
     </div>
   );
