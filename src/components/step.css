@@ -1,12 +1,13 @@
 .title-step{
-    font-weight: 700;
-    font-size: 34px;
-    width: 90%;
-    margin-left: 20px;
+    padding-top: 40px;
+    padding-inline: 20px;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 .title-step span{
     color: #3c52ff;
+    font-weight: 700;
 }
 
 .card-step{
@@ -52,7 +53,7 @@
 
 @media (min-width : 768px) {
     .title-step{
-        font-size: 38px;
+        font-weight: 700;
         width: 100%;
     }
 }

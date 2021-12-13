@@ -8,11 +8,14 @@
 }
 
 .title-comments {
-    font-weight: 700;
+    padding-inline: 20px;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 .title-comments span {
     color: #3c52ff;
+    font-weight: 700;
 }
 
 .card-comment {
@@ -40,6 +43,6 @@
 
 @media (min-width : 768px) {
     .title-comments {
-        font-size: 38px;
+        font-weight: 700;
     }
 }
