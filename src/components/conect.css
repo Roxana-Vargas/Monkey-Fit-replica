@@ -3,15 +3,15 @@
 }
 
 .title-conect{
-    font-size: 30px;
-    font-weight: 700;
-    width: 80%;
-    margin-inline: auto;
-    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-inline: 20px;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 .title-conect span {
     color: #3c52ff;
+    font-weight: 700;
 }
 
 .image-carousel {
@@ -36,11 +36,24 @@
     font-size: 22px;
     width: 300px;
     text-align: center;
+    font-weight: 300;
 }
 
 .lcUbOd {
     box-shadow: 0 0 1px 3px black !important;
     background-color: black !important;
+}
+
+@media (min-width : 768px) {
+    .title-conect {
+        font-weight: 700;
+    }
+}
+
+@media (min-width : 1200px) {
+    .title-conect {
+        font-size: 36px;
+    }
 }
 
 @media (min-width : 1400px) {

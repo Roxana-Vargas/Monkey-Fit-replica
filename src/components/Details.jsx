@@ -3,7 +3,7 @@ import './details.css'
 
 const Details = () => {
     return (
-        <div className='details'>
+        <div className='container details'>
             <h2 className='title-details'>Una plataforma que te ayuda a <span>mantenerte activo</span> y <span>saludable</span> estés donde estés</h2>
             <div  className='container-details'>
                 <div className='container-image-details'>

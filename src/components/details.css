@@ -1,6 +1,5 @@
 .title-details{
     padding-top: 40px;
-    padding-inline: 20px;
     font-size: 32px;
     font-weight: 500;
 }
@@ -94,7 +93,5 @@
     .text-detail{
         font-size: 14px;
     }
-    .title-details{
-        margin-left: 5%;
-    }
+
 }

@@ -7,7 +7,7 @@ const Conect = () => {
         <div className='container'>
             <div className='row'>
                 <div className='col-sm-12'>
-                    <h2 className='title-conect'>Conecta con nuestros <span>pilares</span> de bienestar</h2>
+                    <h2 className='title-conect mb-4'>Conecta con nuestros <span>pilares</span> de bienestar</h2>
                 </div>
                 <div className='col-sm-12'>
                     <Carousel showArrows={false} breakPoints={[
