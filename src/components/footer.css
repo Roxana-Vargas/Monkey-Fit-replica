@@ -1,0 +1,15 @@
+footer {
+    background: #3c52ff;
+}
+
+.link-social {
+    border: 2px solid #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all .3s;
+    font-size: 18px;
+    text-align: center;
+    line-height: 31px;
+}

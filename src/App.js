@@ -1,8 +1,10 @@
 import "./app.css"
 import Banner from "./components/Banner";
+import Chat from "./components/Chat";
 import Comments from "./components/Comments";
 import Conect from "./components/Conect";
 import Details from "./components/Details";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Step from "./components/Step";
 
@@ -36,6 +38,8 @@ function App() {
       <section className="container-comments">
         <Comments />
       </section>
+      <Footer />
+      <Chat />
     </div>
   );
 }
