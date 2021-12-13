@@ -1,12 +1,13 @@
 .title-details{
     padding-top: 40px;
     padding-inline: 20px;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 32px;
+    font-weight: 500;
 }
 
 .title-details span{
     color: #3c52ff;
+    font-weight: 700;
 }
 
 .container-image-details {
@@ -44,6 +45,11 @@
         display: flex;
         justify-content: space-between;
     }
+
+    .title-details {
+        font-weight: 700;
+    }
+    
     .container-image-details {
         width: 60%;
     }
@@ -61,7 +67,7 @@
 
 @media (min-width : 1200px) {
     .title-details {
-        font-size: 40px;
+        font-size: 36px;
         max-width: 70%;
     }
 
